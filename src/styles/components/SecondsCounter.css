@@ -3,7 +3,7 @@
 .backgroundcolor{
     background-color: rgb(0, 0, 0);
     border: 1px solid rgb(100, 100, 100) ;
-    color: white
+    color: white;
 }
 
 .backgroundcolorElements{
@@ -12,6 +12,7 @@
     border-radius: 12%;
     color: white;
     font-size: 7rem;
-    padding: 30px;
+    padding: 25px;
+    margin: 15px 0px;
 
 }

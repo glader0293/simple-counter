@@ -20,15 +20,27 @@ const SecondsCounter = () => {
 
 
 return (
-        <div className="container backgroundcolor p-3">
-            <div className="row mx-5 my-1">
-                <div className="col-12 d-flex align-items-center justify-content-between">
+        <div className="container backgroundcolor">
+            <div className="row text-center justify-content-center flex-nowrap overflow-auto">
+                <div className="col-auto">
                     <h1 className="backgroundcolorElements"><FontAwesomeIcon icon={farClock}  flip="horizontal" style={{color: "#ffffff",}} /></h1>
+                </div>
+                <div className="col-auto">
                     <h1 className="backgroundcolorElements">{Math.floor((counter / 100000) % 10)}</h1>
+                </div>
+                <div className="col-auto"> 
                     <h1 className="backgroundcolorElements">{Math.floor((counter / 10000) % 10)}</h1>
+                </div> 
+                <div className="col-auto">  
                     <h1 className="backgroundcolorElements">{Math.floor((counter / 1000) % 10)}</h1>
+                </div>
+                <div className="col-auto"> 
                     <h1 className="backgroundcolorElements">{Math.floor((counter / 100) % 10)}</h1>
+                </div>
+                <div className="col-auto"> 
                     <h1 className="backgroundcolorElements">{Math.floor((counter / 10) % 10)}</h1>
+                </div>
+                <div className="col-auto"> 
                     <h1 className="backgroundcolorElements">{Math.floor((counter / 1) % 10)}</h1>
                 </div>
             </div>
