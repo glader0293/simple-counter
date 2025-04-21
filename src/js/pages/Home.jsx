@@ -2,13 +2,12 @@ import React from "react";
 
 //include images into your bundle
 
-import {CounterLayout} from "../components/CounterLayout"
+import SecondsCounter from "../components/SecondsCounter";
 //create your first component
 const Home = () => {
 	return (
 		<>
-			<CounterLayout />
-			<h1>Hello</h1>
+			<SecondsCounter />
 		
 		
 		</>
